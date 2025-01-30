@@ -1,0 +1,170 @@
+.kitchenimageContainer {
+  position: relative;
+}
+
+.kitchenimage {
+  width: 100%;
+  @media (max-width:576px) {
+    height: 75vw;
+  }
+}
+
+.kitchen_tagline {
+  font-family: "Montserrat";
+  color: #FFFFFF;
+  font-weight: 100 !important;
+  font-size: 4em;
+}
+
+.kitchen_tagline1 {
+
+  width: 60%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 4em;
+  line-height: 100%;
+}
+
+.kitchenbanercontent {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+.kitchenbanerform {
+  position: absolute;
+  left: 4%;
+  top: 52%;
+  width: 35vw;
+}
+
+@media(min-width:2000px) {
+  .kitchen_tagline {
+    font-size: 2.8vw;
+    line-height: 3vw;
+  }
+
+  .kitchen_tagline1 {
+    font-size: 2.8vw;
+    line-height: 3vw;
+  }
+
+  .kitchenbanercontent {
+    left: 10%;
+    top: 25%;
+  }
+
+  .kitchenbanerform {
+    left: 7%;
+    top: 45%;
+    width: 32vw;
+  }
+}
+
+@media only screen and (max-width:2000px) and (min-width:1600px) {
+  .kitchen_tagline {
+    font-size: 3.5em;
+  }
+
+  .kitchen_tagline1 {
+    font-size: 3.5em;
+  }
+
+  .kitchenbanercontent {
+    left: 7%;
+    top: 32%;
+  }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1200px) {
+  .kitchen_tagline {
+    font-size: 3em;
+  }
+
+  .kitchen_tagline1 {
+    font-size: 3em;
+  }
+
+  .kitchenbanercontent {
+    left: 6%;
+    top: 20%;
+  }
+  .kitchenbanerform{
+    position: absolute;
+    left: 3%;
+    top: 39%;
+    width: 38vw;
+  }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1000px) {
+  .kitchen_tagline {
+    font-size: 2.25em;
+  }
+
+  .kitchen_tagline1 {
+    font-weight: 500;
+    font-size: 2.25em;
+  }
+
+  .kitchenbanercontent {
+    left: 10%;
+    top: 13%;
+  }
+
+  .kitchenbanerform {
+    left: 6%;
+    top: 30%;
+    width: 42vw;
+  }
+}
+
+@media (max-width: 775px) {
+  .kitchenbanerform {
+    padding-right: 4% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .kitchenbanerform {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding: 20px;
+    background-color: #2552A4;
+    padding-top: 3%;
+    padding-right: 12%;
+    width: 100vw ;
+  }
+  .kitchen_tagline {
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    font-weight: 100 !important;
+    font-size: 3em;
+  }
+  .kitchen_tagline1 {
+    font-weight: 400;
+    font-size: 3em;
+  }
+  .kitchenbanercontent {
+    left: 10%;
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width:600px)  {
+  .kitchen_tagline {
+    font-size: 1.75em;
+  }
+  .kitchen_tagline1 {
+    font-weight: 400;
+    font-size: 1.75em;
+  }
+  .kitchenbanercontent {
+    left: 10%;
+    top: 12%;
+  }
+}

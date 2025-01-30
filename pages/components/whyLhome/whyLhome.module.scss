@@ -1,0 +1,130 @@
+ .title{
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;     
+    color: #222222;
+    text-align: center;
+    @media (min-width:2000px) {
+      font-size: 1.4vw;
+      line-height: 2vw;
+    }
+ }
+ 
+ .firstText{
+    width:60%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    @media (max-width:1600px) {
+      width: 80%;
+    }
+    @media (min-width:2000px) {
+      font-size: 0.8vw;
+      line-height: 1.2vw;
+    }
+ }
+ 
+ .subTitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    text-align:center;
+    @media (min-width:2000px) {
+      font-size: 0.8vw;
+      line-height: 1.1vw;
+    }
+ }  
+ 
+ .secondText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #737373;
+    @media (min-width:2000px) {
+      font-size: 0.6vw;
+      line-height: 0.8vw;
+    }
+ }  
+ .thirdText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #737373;
+    text-align: center;
+   @media (min-width:2000px) {
+      font-size: 0.8vw;
+      line-height: 0.8vw;
+   }
+   }
+ 
+ .verticaldivider{
+    height: 160px;
+    margin-top: 0;
+    width: 2px;
+    color: #000000;
+    background: #000000;
+    position: absolute;
+    left: 29%;
+    top: 40%;
+    @media (max-width:1400px) {
+      left: 31%;
+      height: 180px;
+    }
+    @media (max-width:900px) {
+      left: 49%;
+      top: 22%;
+    }
+    @media (max-width:600px) {
+      display: none;
+   }
+ }
+ 
+ .verticaldivider2{
+    height: 160px;
+    margin-top: 0;
+    width: 2px;
+    color: #000000;
+    background: #000000;
+    position: absolute;
+    left: 72%;
+    top: 40%;
+    @media (max-width:1400px) {
+      left: 70%;
+      height: 180px;
+    }
+    @media (max-width:900px) {
+      display: none;
+    }
+ }
+ 
+ .nullifyMargin{
+   @media (max-width:900px) {
+      margin-top: 0;
+   }
+ }
+ .nullifyPaddingTop{
+   @media (max-width:600px) {
+      padding-top: 2rem;
+   }
+ }
+  
+ @media (min-width:2000px) {
+   .icons{
+      height: 1.75vw;
+      width: 1.75vw;
+   }
+ }

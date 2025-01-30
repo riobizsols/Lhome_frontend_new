@@ -1,0 +1,615 @@
+.loginLeftImage {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 50%;
+    height: 100%;
+}
+
+.btn-close {
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.InputContainer button[class="ReactFlagsSelect-module_selectBtn__19wW7"]{
+    border: none;
+    width: 10%;
+    font-size: 1.5vw !important;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .InputContainer ul[class="ReactFlagsSelect-module_selectOptions__3LNBJ"]{
+    font-size: 1.5vw !important;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .InputContainer span[class="ReactFlagsSelect-module_label__27pw9"]{
+    display: none;
+  }
+  .InputContainer button::after{
+    border-top: 1vw solid #222222;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-bottom: 0;
+    @media (max-width:1024px){
+        border-top: 12px solid #222222;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 0;
+    }
+  }
+  .InputContainer button[aria-expanded="true"]::after {
+    border-top: 0;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-bottom: 1vw solid #222222;
+    @media (max-width:1024px){
+        border-top: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 12px solid #222222;   
+    }
+  }
+
+.fade .modal-header {
+    border-bottom: 0;
+}
+
+.form_content h2 {
+    color: #F44336;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 3%;
+    @media (max-width:1024px){
+        font-size: 32px;
+    }
+}
+
+.form_content p {
+    color: #222222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.7vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: unset;
+    @media (max-width:1024px){
+        font-size: 8px;
+    }
+}
+
+.formsofmodel {
+    width: 50%;
+    position: relative;
+    z-index: 111;
+}
+
+.whatsapplabel {
+    width: 100%;
+    float: right;
+    display: flex;
+    padding: 2.5% 0;
+
+    .label1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9vw;
+        color: #222222;
+        text-align: right;
+        @media (max-width:1024px){
+            font-size: 0.8em;
+        }
+    }
+
+    .label2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.5vw;
+        color: #222222;
+        text-align: right;
+        @media (max-width:1024px){
+            font-size: 7px;
+        }
+    }
+}
+
+.SInput1 {
+    width: 100%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #222222;
+    background-color: transparent;
+    color: #222222;
+    font-size: 1.2vw;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.SInput0 {
+    width: 100%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #222222;
+    background-color: transparent;
+    color: #222222;
+    font-size: 1.2vw;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.SInput0::placeholder {
+    color: #B7B7B7;
+    font-family: Montserrat;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+    @media (max-width:1300px) {
+        font-size: 1vw;
+    }
+    @media(max-width:1024px){
+        font-size: 14px;
+    }
+
+}
+
+
+div.whatsappcheckbox input[type="checkbox"] {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    bottom: 1px solid #fff;
+}
+
+.whatsappcheckbox {
+    width: 10%;
+}
+
+.SInput1::placeholder {
+    color: #B7B7B7;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.SInput2::placeholder {
+    color: #B7B7B7;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.LRInput::placeholder {
+    color: #B7B7B7;
+    font-family: Montserrat;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.input_form_content{
+    padding-bottom: 5%;
+}
+.SInput2 {
+    width: 100%;
+    border-bottom: 1px solid #222222;
+    background-color: transparent;
+    padding: 0% 0 2% 25%;
+    color: #222222;
+    font-size: 1.2vw;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+
+.InputContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.formLR {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 5% 5% 2%;
+    align-items: center;
+}
+
+.form_content {
+    width: 100%;
+    height: auto;
+    padding: 6% 10%;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #222222;
+    background: linear-gradient(144deg, rgba(255, 255, 255, 0.20) 0.99%, rgba(255, 255, 255, 0.05) 99.36%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+
+}
+
+.rightImage {
+    height: auto;
+}
+
+.emptybubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 0.5vw 0 100%;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(239, 83, 80, 1);
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    /* Place it behind the image */
+}
+.Left_vector{
+    width: 90%;
+}
+
+
+.formsofmodel input:focus {
+    outline: 0;
+}
+
+.rightImage img {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+
+.form_content .inputAndbtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputAndbtn input {
+    padding: 5% 0 5% 25%;
+    margin: 5%;
+}
+
+.inputAndbtn {
+    position: relative;
+
+}
+
+
+.formsofmodel .LoginButton {
+    padding: 3% 10%;
+    border: none;
+    background-color: #F44336;
+    margin: 3%;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+}
+
+.formsofmodel .SignButton {
+    padding: 3% 35%;
+    border: none;
+    background-color: #F44336;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.LRInput {
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #222222;
+    font-size: 1vw;
+    @media (max-width:1024px){
+        font-size: 18px;
+    }
+}
+.dropdown_login_icon div[data-testid="rfs"]{
+padding-bottom: unset;
+}
+.mainVal {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.G_icon{
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown_icon {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+  }
+
+
+.iconpart {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 9%;
+    border-radius: 56%;
+    height: auto;
+
+}
+
+.InputContainer .dropdown ::after {
+    display: none !important;
+}
+
+.InputContainer div div button,
+.InputContainer div div button:focus,
+.InputContainer div div button:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.InputContainer .dropdown button svg {
+    width: 80%;
+}
+
+//checkbox
+.whatsappcheckbox {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.whatsappcheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.8vw;
+    width: 1.8vw;
+    background-color: transparent;
+    border: 1px solid #222222;
+    border-radius: 10%;
+    @media (max-width:1024px){
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.whatsappcheckbox input:checked~.checkmark {
+    background-color: transparent;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.whatsappcheckbox input:checked~.checkmark:after {
+    display: block;
+}
+
+.whatsappcheckbox .checkmark:after {
+    left: 30%;
+    top: 0px;
+    width: 0.6vw;
+    height: 1.3vw;
+    border: solid #222222;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    @media (max-width:1024px){
+        height: 13px;
+        width: 8px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .loginLeftImage {
+        display: none;
+    }
+
+    .formsofmodel {
+        width: 100%;
+    }
+
+    .formLR {
+        padding: 5%;
+    }
+}
+
+.inputAndbtn {
+    position: relative;
+    width: 100%;
+}
+
+.inputAndbtn .dropdown ::after {
+    display: none !important;
+}
+.inputAndbtn div div button,
+.inputAndbtn div div button:focus,
+.inputAndbtn div div button:hover {
+    background-color: transparent;
+    border: none;
+}
+.inputAndbtn .dropdown button svg {
+    width: 80%;
+}
+.dropdown_login_icon{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+
+}
+.inputAndbtn button[class="ReactFlagsSelect-module_selectBtn__19wW7"]{
+    border: none;
+    width: 10%;
+    font-size: 1.5vw !important;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .inputAndbtn ul[class="ReactFlagsSelect-module_selectOptions__3LNBJ"]{
+    font-size: 1.5vw !important;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .inputAndbtn span[class="ReactFlagsSelect-module_label__27pw9"]{
+    display: none;
+  }
+  .inputAndbtn button::after{
+    border-top: 1vw solid #222222;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-bottom: 0;
+    @media (max-width:1024px){
+        border-top: 12px solid #222222;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 0;
+    }
+  }
+  .inputAndbtn button[aria-expanded="true"]::after {
+    border-top: 0;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-bottom: 1vw solid #222222;
+    @media (max-width:1024px){
+        border-top: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 12px solid #222222;   
+    }
+  }
+  // otp form
+  .Otp_heading{
+    color: #F44336;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-bottom: 8%;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .otp_Box{
+    padding: 0 4%;
+    border: 0.15vw solid rgba(217, 217, 217, 1);
+    @media (max-width:1024px){
+        border: 1.5px solid rgba(217, 217, 217, 1);
+    }
+  }
+  .otp_box_content{
+    font-size: 1vw !important;
+    font-weight: 500 !important;
+    color: #222222 !important;
+    text-align: left !important;
+    @media (max-width:1024px){
+        font-size: 12px;
+    }
+    padding: 3% 0;
+  }
+  .otp_input{
+    border: 1px solid #9F9F9F;
+    width: 100%;
+    font-size: 1.2vw;
+    color: #222222;
+    padding: 2% 30%;
+    border-radius: 5px;
+    @media (max-width:1024px){
+        font-size: 14px;
+    }
+  }
+  .otp_input::placeholder{
+    font-size: 1.2vw;
+    color: #9F9F9F;
+    @media (max-width:1024px){
+        font-size: 14px;
+    }
+  }
+  .otp_button{
+    font-weight: 600;
+    color: #fff;
+    background-color:#F44336;
+    width: 100%;
+    padding: 2% 0;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    @media (max-width:1024px){
+       font-size: 16px; 
+    }
+  }
+  .otp_resend_button{
+    font-size: 1vw !important;
+    font-weight: 500 !important;
+    color: #222222 !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 3% 0;
+  }
+  .otp_Verify_content{
+    padding-top: 10%;
+    font-size: 0.7vw;
+    color: #58B743;
+    font-weight: 600;
+  }

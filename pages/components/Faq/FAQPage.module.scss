@@ -1,0 +1,104 @@
+.faqInnerLayer {
+    margin: 2% 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+.faqInnerLayer_CS{
+        margin: 0 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    @media (max-width:700px) {
+        grid-template-columns: repeat(1, 1fr);
+       }
+}
+.faqHead {
+    font-weight: 700;
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    @media (min-width:1700px) {
+        font-size: 1.5vw;
+    }
+}
+
+.faqBox{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 2%;
+    width: 96%;
+    height: 60px;
+    background-color: #F5F5F5;
+    align-items: center !important;
+    padding: 2%;
+    @media (min-width:2000px) {
+        padding: 4%;
+    }
+}
+.faqQuestion{
+    font-size: 0.9vw;
+    font-weight: 600;
+    color: #737373;
+    width: 92%;
+    padding-left: 20px;
+    @media screen and (max-width:1023px){
+    font-size:10px;
+    }
+}
+
+.faqAnswer {
+    font-size: 0.9vw;
+    font-weight: 400;
+    background: #ffff;
+    color: #000;
+    width: 96%;
+    height: 60px;
+    margin-left: 30px;
+    align-items: center !important;
+    padding: 5px;
+    @media screen and (max-width:1024px){
+        font-size: 10px;
+    }
+}
+.faqIcon {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3px;
+    @media (min-width:2000px) {
+        font-size: 0.6vw;
+    }
+}
+
+.faqIcon {
+    transition: transform 0.3s ease-in-out;
+  
+    &.rotate {
+      transform: rotate(45deg);
+    }
+  }
+  
+  .faqAnswer {
+    max-height: 0;
+    overflow: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: max-height 0.3s, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  
+    &.open {
+      max-height: 100vh; // assuming this will be enough to show the content
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+@media only screen and (max-width: 720px) and (min-width:320px) {
+    .faqInnerLayer {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

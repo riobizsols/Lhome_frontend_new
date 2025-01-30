@@ -1,0 +1,123 @@
+.imageContainer {
+  position: relative;
+}
+.citiesimage{
+  width: 100%;
+  @media (max-width:576px) {
+    height: 70vw;
+  }
+}
+.word_bgclr {
+  background-color: #2552A4;
+}
+.tagline {
+  font-weight: 400 !important;
+  font-size: 2.5em;
+  margin-left: 15px;
+  padding-top: 1%;
+}
+
+.tagline1 {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: "Montserrat";
+  line-height: 1em;
+}
+
+.citiesbannercontent {
+  position: absolute;
+  left: 7%;
+  top: 30%;
+  transform: translateY(-50%);
+  color: white;
+}
+.citiesbannerform {
+  position: absolute;
+  left: 4%;
+  top: 52%;
+  width: 35vw;
+}
+
+@media (max-width:1600px) {
+  .citiesbannerform {
+    top: 45%;
+  }
+  .citiesbannercontent {
+    top: 24%;
+  }
+}
+
+@media (max-width:1300px) {
+  .citiesbannerform {
+  width: 40vw;
+  top: 33%;
+  left: 5%;
+  }
+  .citiesbannercontent{
+    top: 18%;
+    left: 8%;
+  }
+  .tagline1 {
+    font-size: 2em;
+  }
+  .tagline {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .citiesbannerform {
+    position: relative;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    transform: none;
+    background-color: #2552A4;
+    padding-top: 5%;
+    padding-right: 13%;
+  }
+}
+@media (max-width:775px) {
+  .citiesbannerform {
+    padding-right: 3%;
+  }
+  .tagline1{
+    font-size: 1.5em;
+  }
+  .tagline{
+    font-size: 1.25em;
+  }
+  .citiesbannercontent{
+  top: 12%;
+  }
+}
+
+@media (max-width:500px) {
+  .tagline1{
+    font-size: 1.25em;
+  }
+  .tagline{
+    font-size: 1em;
+  }
+  .citiesbannercontent{
+  top: 12%;
+  }
+}
+
+@media (min-width:2000px) {
+  .citiesbannerform {
+    width: 32vw;
+    top: 53%;
+  }
+  .citiesbannercontent{
+    top: 36%;
+  }
+  .tagline1{
+    font-size: 2.8vw;
+  }
+  .tagline{
+    font-size: 2vw;
+  }
+
+}

@@ -1,0 +1,170 @@
+.guaranteed {  
+   width: 100%;
+   display: flex;
+}
+
+.guaranteedInnerLayer {
+   margin: 2%;
+   background-color: #F5F5F5;
+   border-radius: 14px;
+   width: 100%;
+   padding: 2%;
+}
+
+.guaranteedHeader {
+   font-weight: 700;
+   font-size: 24px;
+   color:#222222;
+   text-align: center;
+   margin-bottom: 2%;
+   @media (min-width:2000px) {
+    font-size: 1.5vw;
+   }
+}
+
+.guaranteedRaajapalayam {
+   background-size:contain;
+   background: url(/assets/guranted/coimbatore.jpg)  no-repeat;
+   background-size: 100% 100%;
+   width: 100%;
+   height: 90%;
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+}
+
+.guaranteedCoimbatore {
+   background-size:contain;
+   background: url(/assets/guranted/coimbatore.jpg)  no-repeat;
+   background-size: 100% 100%;
+   width: 100%;
+   height: 88%;
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+}
+.guaranteedBody {
+   display: flex;
+}
+.guarantedgoogleText {
+   width: 400px;
+   height: 400px;
+}
+.guaranteedRjpamText, .guaranteedCbeText {
+   font-size: 16px;
+   font-weight: 600;
+   width: 90%;
+   text-align: center;
+   color: #9F9F9F;
+   margin-right: 3%;
+   border-radius: 14px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+.guaranteedBodyBorder {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.guaranteedBodyParent{
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 2%;
+
+}
+.guaranteedRjpamImg, .guaranteedRjpamImg {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  width: 100%;
+  height: 85%;
+}
+.image_textContent{
+  padding: 2%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  @media (min-width:2000px) {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 724px){
+   .guaranteedBody {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    align-items: center;
+    margin: 0 auto;
+    }
+
+    .guaranteedRjpamImg {
+     border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+   width: 100%;
+   height: 85%;
+    }
+    .guaranteedRjpamText, .guaranteedCbeText {
+       margin:3% 0%;
+    }
+    .verticaldivider {
+      height: 1px !important;
+    }
+    .guaranteedBodyBorder {
+     width: 100%;
+    }
+}
+
+@media only screen and (min-width:725px) and (max-width: 1024px){ 
+  .guaranteedBody {
+     width: 90%;
+     height: 90%;
+  }
+}
+
+.likeScore {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9F9F9F;
+  text-align: center;
+  margin-top: 5%;
+  @media (min-width:2000px) {
+    font-size: 1vw;
+  }
+
+}
+.likeScoreDetail {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 5%;
+  text-align: center;
+  @media (min-width:2000px) {
+    font-size: 1.5vw;
+    line-height: 2vw;
+  }
+}
+
+.likeScoreDetailLocation {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9F9F9F; 
+  text-align: center;
+  @media (min-width:2000px) {
+    font-size: 1vw;
+  }
+}
+
+.guaranteedBodyLine {
+  padding-right: 5%;
+
+}
+
+.verticaldivider {
+  border: 1px solid #222;
+  height: 40vh
+}
+
+.googleIcon{
+  width: 90%;
+  margin: 0 auto;
+}

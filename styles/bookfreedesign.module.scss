@@ -1,0 +1,194 @@
+// .lhomePage{
+//     width:100%;
+//     margin:0;
+//     padding:0;
+//     height:100vh;
+//     scale: 0.92;
+//   }
+//   .mutli_step{
+//     width: 100%;
+//     height: 82vh;
+//     position: absolute;
+//     width: 100%;
+// }
+.Img_content{
+    display: flex;
+    justify-content: center;
+}
+.Img_content_img{
+    width: 15%;
+}
+.book_Content{
+    width: 75%;
+    border: 1px solid #9F9F9F;
+    margin: 0% auto;
+    border-radius: 2vw;
+    padding: 2% 5%;
+}
+.Book_heading_content{
+    text-align: center;
+}
+.heading{
+    font-weight: 600;
+    color: #222222;
+    font-size: 1.5vw;
+    margin-bottom: unset;
+    @media (max-width:1024px){
+        font-size: 20px;
+    }
+}
+.step{
+    color: #737373;
+    font-size: 1vw;
+    margin-bottom: 0.5%;
+    font-weight: 600;
+    @media (max-width:1024px){
+      font-size: 10px;  
+    }
+}
+.Bookfreedesign_Button_content{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.Bookfreedesign_Button{
+    background-color: #F44336 !important;
+    color: #fff !important;
+    padding: 1% 4% !important;
+    border-radius: 0.5vw !important;
+    font-weight: 600 !important;
+    font-size: 1.1vw !important;
+    @media (max-width:1024px){
+        font-size: 14px !important;
+    }
+}
+.Bookfreedesign_Button_Back{
+    background-color: #fff !important;
+    color: #222222 !important;
+    border: 1px solid #222222 !important;
+    padding: 1% 4% !important;
+    border-radius: 0.5vw !important;
+    font-weight: 600 !important;
+    font-size: 1.1vw !important;
+    margin-right: 5% !important;
+    @media (max-width:1024px){
+        font-size: 14px !important;
+    }
+}
+.NextBook_page{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    @media (max-width:768px){
+        flex-direction: column;
+    }
+}
+.Dropdown_list{
+    width: 48%;
+    @media (max-width:768px){
+        width: 100%;
+    }
+}
+.Dropdown_list div select{
+    padding: 2% 0 2% 10% !important;
+}
+.Date_input{
+border: 1px solid #222222;
+}
+
+.input_Date_Time_content{
+    display: flex;
+    justify-content: space-between;
+}
+.input_Date_Time{
+    margin-top: 5%;
+}
+.input_field{
+    padding: 2% 5% !important;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border: 1px solid #9F9F9F;
+    border-radius: 0.5vw;
+}
+.input__content{
+    width: 50%;
+}
+.input_field_icon{
+    margin-right: 2%;
+}
+.select_button_Heading{
+    font-size: 1vw;
+    font-weight: 600;
+    color: #737373;
+    @media (max-width:1024px){
+        font-size: 12px;
+    }
+  }
+  .time_content{
+    width: 100%;
+  }
+  .time_content input{
+    padding: 3%  20%;
+    position: absolute;
+  }
+  .time_content input::placeholder{
+    font-size: 1.2vw;
+    @media(max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .time_content{
+    top: 48px;
+  }
+  .time_content  fieldset{
+    border: 0 !important;
+  }
+  .custom_date_picker{
+    position: relative;
+  }
+  .custom_date_picker div[class="react-datepicker-wrapper"]{
+    width: 100%;
+  }
+  .custom_date_picker div div input{
+    width: 100%;
+    text-align: left;
+    padding-left: 25%;
+    font-size: 1.2vw;
+    @media (max-width:1024px){
+        font-size: 16px;
+    }
+  }
+  .custom-time-picker div div fieldset[class="MuiOutlinedInput-notchedOutline"]{
+    border: 0 !important;
+  }
+  .icon_bottom {
+    font-size: 1.2vw ;
+    @media (max-width:1024px) {
+        font-size: unset !important;
+    }
+  }
+  .date_content{
+    border: 0.5px solid #9F9F9F;
+    width: 100%;
+    cursor: pointer;
+    background: white !important;
+    padding: 2% 0;
+    margin-top: 1%;
+    border-radius: 0.5vw;
+  }
+  .date_content:focus{
+    outline: none;
+  }
+.LeftIcon{
+position: absolute;
+left: 5%;
+top: 35%;
+}
+.RightIcon{
+    position: absolute;
+    right: 5%;
+    top: 35%;
+}

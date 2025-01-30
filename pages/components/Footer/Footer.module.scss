@@ -1,0 +1,122 @@
+//footer             
+.footer {
+   background-color: #fff;
+   display: flex;
+}
+.footerInnerLayer {
+   padding: 3%;
+   display: flex;
+   width: 100%;
+   margin-left: 5%;
+}
+
+.footerContent {
+   width: 25%;
+   margin-top: auto;
+}
+.footerLeftContent {
+   width: 25%;
+   margin-top: -3%;
+}
+.footerContentHeader {
+   font-size: 1.2vw;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-right: 87%;
+    white-space: nowrap;
+    @media(max-width:1000px){
+      font-size:24px;
+    }
+}
+.footerContentSubContent {
+   font-size: 0.9vw;
+   color: #9F9F9F;
+   white-space: nowrap;
+   margin-left: 1.5%;
+   @media(max-width:1000px){
+      font-size:12px;
+    }
+}
+
+.footerContentSubContent:nth-child(0) {
+   padding-left: 10px;
+}
+
+.footerContentSubContentIcon {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footerContentSubContent div{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+
+}
+.guaranteedRjpamImg, .guaranteedRjpamImg {
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+   height: 88%;
+}
+@media only screen and (min-width:320px) and (max-width: 780px){
+   .footerContent{
+      width: 100%;
+      padding: 2%;
+   }
+   .footerInnerLayer {
+      display: block;
+   }
+   .footerLeftContent {
+      display: contents;
+   }
+   .interiorDesign {
+      top: 2865px !important;
+   }
+} 
+.socialMedia {
+   display: flex;
+   margin-left: 5%;
+   margin-bottom: 8%;
+}
+.socialMedia_icons{
+   background-color: #222222;
+   color: #fff;
+   border-radius: 50%;
+   margin-right: 2%;
+   padding: 1.5%;
+   font-size: 1.2vw;
+   @media (max-width:1024px){
+      font-size: 12px;
+   }
+}
+.socialMediaIcons {
+   height: auto;
+   width: 50%;
+}
+.socialMediaIcons_0 {
+   height: 50px;
+   width:100px;
+}
+
+.lhomelogobackground{   
+  background-size:contain;
+//   background: url()  no-repeat;
+  background-size: 100% 100%;
+}
+
+.lhomelogo{
+  width: 60%;
+  padding: 5% 0;
+  display: flex;
+  margin-left: -10px;
+}
+
+
+.lhomelogomask{
+  width:100%;
+  height:100%;
+}
+@media only screen and (min-width:780px) and (max-width:900px){
+   .footerContent{
+      margin-left: 5%;
+   }
+ }

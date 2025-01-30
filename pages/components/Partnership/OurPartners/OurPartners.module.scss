@@ -1,0 +1,109 @@
+
+.ourpartnerOuter{
+    margin: 0 auto;
+    padding: 2% 0% 0% 0%;
+}
+.ourpartnertitle{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2vw !important;
+    line-height: 39px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:1024px){
+        font-size: 24px;
+    }
+}
+.ourpartnerContainer{
+    display: flex;
+    margin: 0% 6%;
+}
+.ourPartners{
+    border-radius: 16px !important;
+    background: #2552A4;
+    color: #FFFFFF;
+    padding: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+.ourPartnersHead1{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 2vw;
+    @media (max-width:1024px){
+        font-size: 20px;
+    }
+}
+.ourPartnersHead2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 0.6vw;
+    text-align: center;
+    @media (max-width:1024px){
+        font-size: 8px;
+    }
+}
+.ourPartnersText{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 0.9vw;
+    padding: 30px 40px 10px 40px;
+    @media (max-width:1024px){
+        font-size: 8px;
+    }
+}
+.boxImg{
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    
+}
+.boxIcon{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxIcon_Content{
+background-color: #F5F5F5;
+border-radius: 50%;
+width: 7vw;
+height: 7vw;
+position: relative;
+bottom: -3vw;
+}
+.boxIcon_Content_parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:320px) and (max-width: 700px){
+    .ourpartnerOuter{
+        padding: 5% 0% 0% 0%;
+    }
+    .ourpartnerContainer{
+        display: block;
+    } 
+    .ourPartnersText{
+        padding: 0px;
+        padding-top: 20px;
+    } 
+    .ourPartners{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width:700px) and (max-width: 1024px){
+    .ourPartnersText{
+        padding: 0px;
+        padding-top: 20px;
+    } 
+
+}

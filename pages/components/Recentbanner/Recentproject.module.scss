@@ -1,0 +1,84 @@
+.connectfilmrole {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.detailsholder {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.division1 {
+    width: 100%;
+    height: 40vh;
+}
+
+.recenttitle {
+    color: #F44336;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recentcount {
+    color: #2552A4;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+}
+
+.recentpara {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.division1 img{
+ margin:0 auto;
+}
+
+.division1 img:nth-child(2){
+    display: none;
+}
+
+.recentimg {
+    height: 100%;
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:720px){
+    .connectfilmrole {
+        display:block;
+        width: 100%;
+    }
+    .line{
+        display:none;
+    }
+    // .division1 {
+    //     height: 40vh;
+    // }
+    .recentimg {
+        height: 80%;    
+    }
+}
+@media only screen and (min-width:720px) and (max-width:1024px) {
+    .division1 {
+        height: 35vh;
+    }
+    .recentimg {
+        height: 80%;    
+    }
+}

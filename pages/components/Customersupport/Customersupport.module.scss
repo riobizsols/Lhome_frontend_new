@@ -1,0 +1,240 @@
+.Customerpage {
+    margin-left: 250px;
+}
+
+.pagehead {
+    text-align: center;
+    color: #B7B7B7;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.referearn_socialicon{
+    width: 70px;
+    margin: 0% 2% 2%;
+}
+.content {
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media (min-width:2000px) {
+        font-size: 0.9vw;
+    }
+}
+
+.time {
+    color: #B7B7B7;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media (min-width:2000px) {
+        font-size: 0.8vw;
+    }
+}
+
+.Customersupportpage {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.customlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texthere {
+    width: 700px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F5F5F5;
+    padding-left: 20px;
+    padding-top: 10px;
+    resize: none;
+    @media (min-width:2000px) {
+        width: 60vw;
+        height: 40vh;
+        font-size: 1vw;
+    }
+}
+
+.Customersupportpage:focus {
+    outline: none !important;
+}
+
+.btncontrol {
+    padding: 1% 13%;
+    color: #F5F5F5;
+    background-color: #F44336 !important;
+    border: none;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+    border-radius: 0.5vw;
+    @media (max-width:1024px) {
+        font-size: 18px;
+    }
+}
+
+
+.dummycontainer {
+    width: 56%;
+    height: 900px;
+    margin: 0% auto;
+    font-family: 'Montserrat', sans-serif;
+    @media (min-width:2000px) {
+        margin-top: 2%;
+    }
+}
+
+.Box {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.tablist {
+    width: 70%;
+    margin: 0% auto;
+}
+
+.category {
+    margin: 2%;
+    padding: 3%;
+}
+
+.divisionchild {
+    display: flex;
+    width: 75%;
+    height: 20%;
+    margin: 1% auto 3%;
+    border-radius: 16px;
+    background: #F5F5F5;
+}
+
+.division {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.interiorname {
+    color: #222;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 5px;
+    @media (min-width:2000px) {
+        font-size: 1.75vw;
+    }
+}
+
+.interiortext {
+    color: #737373;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 5px;
+    @media (min-width:2000px) {
+        font-size: 1vw;
+    }
+}
+
+.interioriframe {
+    border-radius: 20px;
+    height: 100%;
+    width: 70%;
+    @media(max-width:500px){
+        width: 100%;
+    }
+}
+
+.interiorimage {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:380px) {
+    .divisionchild {
+        width: 100%;
+        height: 10%;
+    }
+
+}
+
+
+@media screen and (max-width:420px) {
+    .Customerpage {
+        margin-left: 0px;
+    }
+
+    .teaxhere {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .customersupport_button {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .Customerpage {
+        margin-left: 0px;
+    }
+
+    .texthere {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .customersupport_button {
+        font-size: 10px;
+    }
+
+}
+
+.containerForLG{
+    width: 70%;
+    margin: 0 auto;
+    @media(max-width:500px){
+        width: 100%;
+    }
+    @media (min-width:2000px) {
+        max-width: 70vw;
+    }
+}
+.head{
+    @media (min-width:2000px) {
+        font-size: 0.8vw;
+    }
+}
+.referform_button_content{
+    @media (min-width:2000px) {
+        font-size: 1vw;
+        padding-top: 2%;
+        }
+}
+.noissue{
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #4D6797;
+    @media (max-width:1024px) {
+        font-size: 20px;
+    }
+}

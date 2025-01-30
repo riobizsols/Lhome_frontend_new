@@ -1,0 +1,10 @@
+{
+    "zigzag": [
+        {
+            "image": "/assets/zigzag/zigzag.gif",
+            "image1":"/assets/zigzag/static.png",
+            "alt":"Animation Gif"
+        }
+
+    ]
+}

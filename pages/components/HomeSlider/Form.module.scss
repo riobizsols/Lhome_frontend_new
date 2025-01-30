@@ -1,0 +1,303 @@
+ .designermeet {
+    margin-left: 8%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    position: relative;
+ }
+
+ .designermeettitle {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 2em;
+   line-height: 29.26px;
+   color: #F44336;
+   float: left;
+   width: 100%;
+   height: auto;
+   margin-left: 3%;
+   margin-top: 3%;
+   @media (max-width:1400px ){
+      margin-left: 2%;
+   }
+   @media (max-width:1120px) {
+      margin-left: unset;
+   }
+   @media (max-width:992px) {
+      margin-left: 4.5%;
+    }
+    @media (max-width:850px) {
+      margin-left: 4%;
+    }
+    @media (max-width:650px) {
+      margin-left: 3%;
+    }
+    @media (max-width:600px) {
+      margin-left: 2%;
+    }
+    @media (max-width:450px) {
+      margin-left: unset;
+    }
+    @media (min-width:2000px) {
+      font-size: 1.2vw;
+      margin: 4% 2% 3% 6%;
+    }
+ }
+
+ .designermeettitleForHome {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 29.26px;
+    color: #F44336;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 5%;
+    @media (max-width:1650px) {
+      margin-left: 2%;
+      margin-top: 5%;
+    }
+    @media (max-width:1450px) {
+      margin-left: 1.5%;
+    }
+    @media (max-width:1250px) {
+      margin-left: unset;
+    }
+    @media (max-width:992px) {
+      margin-left: 4.5%;
+    }
+    @media (max-width:850px) {
+      margin-left: 4%;
+    }
+    @media (max-width:650px) {
+      margin-left: 3%;
+    }
+    @media (max-width:600px) {
+      margin-left: 2%;
+    }
+    @media (max-width:450px) {
+      margin-left: unset;
+    }
+    @media (min-width:2000px) {
+      font-size: 1.2vw;
+      margin: 4% 2% 3% 6%;
+    }
+ }
+
+ .marginmove_5 {
+    margin-left: 10%;
+ }
+ .marginmove_2 {
+    margin-right: 10%;
+ }
+
+ .marginmovebig_2 {
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+ .forminput {
+    font-size: 0.9em;
+    @media (min-width:2000px) {
+      font-size: 0.8vw;
+    }
+ }
+
+ .whatsapplabel {
+    width: 100%;
+    float: right;
+    display: flex;
+    margin-right: 10%;
+    margin-top: 1%;
+
+    .label1 {
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 0.90em;
+       color: #737373;
+      @media (min-width:2000px) {
+         font-size: 0.5vw;
+      }
+
+    }
+
+    .label2 {
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 9px;
+
+       //  width: 100%;
+       color: #D2D2D2;
+       // margin-right: 6%;
+       @media (min-width:2000px) {
+         font-size: 0.45vw;
+       }
+
+    }
+
+ }
+
+ .checkboxForLg{
+   width: 1.5vw;
+   height: 1.5vw;
+   background-color: #FFFFFF !important;
+   @media (max-width:1024px){
+      width: unset;
+      height: unset;
+   }
+ }
+ .whatsappcheckbox_content {
+    //   width: 100%;
+    padding-left: 10px;
+   padding-right: 6%;
+   margin-top: 1.25%;
+    @media (min-width:2000px) {
+      margin-top: unset;
+   }
+ }
+
+ .inputbox {
+    width: 100%;
+
+    div {
+       min-width: 30% !important;
+    }
+
+    label {
+       width: 100%;
+    }
+ }
+
+ .whatsappdetailsholder {
+    margin-top: 5px;
+ }
+
+ .designerbookingconfirmationholder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .designerbookingconfirmationbutton {
+    background: #F44336;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    @media (min-width:2000px) {
+      margin-top: 2%;
+    }
+ }
+
+ .designerbookingconfirmationbutton>label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    @media (min-width:2000px) {
+      font-size: 0.7vw;
+    }
+    }
+
+ .designerbookingwarningtext {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.46em;
+    line-height: 10px;
+    color: #737373;
+    display: flex;
+    justify-content: center;
+    padding: 1.5% 0 4% 0;
+    @media (min-width:2000px) {
+      font-size: 0.5vw;
+    }
+ }
+
+
+ @media only screen and (max-width: 775px) {
+    .whatsappdetailsholder {
+       margin-right: 2%;
+    }
+    .whatsappcheckbox_content {
+       right: 0px;
+       margin-right: 2%;
+    }
+
+    .designermeet {
+       margin: 2% !important;
+    }
+ }
+
+
+ @media (max-width:576px) {
+   
+   .forminput {
+      font-size: 0.7em;
+   }
+   .label1 {
+      font-size: 0.85em !important;
+   } 
+   .label2{
+      font-size: 0.4em;
+   }
+ }
+ .checkmark {
+   position: absolute;
+   height: 1.6vw;
+   width: 1.6vw;
+   background-color: transparent;
+   border: 1px solid #222222;
+   border-radius: 10%;
+   @media (max-width:1024px){
+       height: 20px;
+       width: 20px;
+   }
+}
+
+.whatsappcheckbox_content input:checked~.checkmark {
+   background-color: transparent;
+}
+
+.checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+.whatsappcheckbox_content input:checked~.checkmark:after {
+   display: block;
+}
+
+.whatsappcheckbox_content .checkmark:after {
+   left: 30%;
+   top: 0px;
+   width: 0.6vw;
+   height: 1.3vw;
+   border: solid #222222;
+   border-width: 0 1px 1px 0;
+   -webkit-transform: rotate(40deg);
+   -ms-transform: rotate(40deg);
+   transform: rotate(40deg);
+   @media (max-width:1024px){
+       height: 13px;
+       width: 8px;
+   }
+}
+.whatsappcheckbox_content input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+}

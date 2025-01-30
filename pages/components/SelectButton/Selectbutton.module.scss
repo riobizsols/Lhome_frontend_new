@@ -1,0 +1,102 @@
+.selectedButton {
+    background-color: #F44336;
+    color: #fff;
+    border-radius: 0.3vw;
+    padding: 1% 0%;
+    width: 30%;
+    font-size: 1.1vw;
+    @media (max-width:768px){
+      margin-top: 2%;
+      width: 100%;
+    }
+    @media (max-width:1024px){
+      font-size: 16px;
+    }
+  }
+  .not_selectedButton{
+    background-color: white;
+    color:#222222;
+    border: 1px solid #9F9F9F;
+    border-radius: 0.3vw;
+    padding: 1% 0%;
+    width: 30%;
+    font-size: 1.1vw;
+    @media (max-width:768px){
+      margin-top: 2%;
+      width: 100%;
+    }
+    @media (max-width:1024px){
+      font-size: 16px;
+    }
+  }
+  .select_button_Heading{
+    font-size: 1vw;
+    font-weight: 600;
+    color: #737373;
+    padding-bottom: 0.5%;
+    margin-bottom: unset !important;
+    @media (max-width:1024px){
+        font-size: 12px;
+    }
+  }
+  .radio_button_Heading
+  {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    margin-bottom: -10px;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #737373;
+    @media (max-width:1024px){
+        font-size: 12px;
+    }
+  }
+  .Button_content{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:768px) {
+      flex-direction: column;
+    }
+  }
+  .input_Dropdown:focus{
+    border-color: unset;
+    box-shadow: unset;
+  }
+  .input_Dropdown{
+    padding: 1% 0% 1% 10% !important;
+    font-size: 1.2vw;
+    border: 1px solid #9F9F9F;
+    width: 100%;
+    border-radius: 0.5vw;
+    @media (max-width:1024px){
+      font-size: 16px;
+    }
+  }
+  .bookfree_dropdown{
+    position: relative;
+  }
+  .show{
+    display: block;
+    color: #F44336;
+    position: absolute;
+    bottom: 13%;
+    left: 2%;
+    font-size: 1.2vw;
+    @media (max-width:1024px){
+      font-size: 16px;
+    }
+  }
+  .hidden{
+    display: none;
+  }
+  .radio_label span{
+    font-size: 1.5vw !important;
+    @media (max-width:1024px){
+        font-size: 18px !important;
+    }
+  }
+  .customSelectIcon{
+    position: absolute;
+    right: 1.5%;
+    bottom: 10%;
+  }
